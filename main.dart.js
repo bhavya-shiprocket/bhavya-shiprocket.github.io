@@ -31801,7 +31801,7 @@ aOE:function aOE(){},
 aYl(a){var s=new A.azZ(a),r=new A.Wv(A.a([],t.f8),new A.zM(),new A.zM(),new A.zM()),q=new A.ah9($,r,$,new A.agZ(),!1),p=A.bdR()
 q.a1_$=p
 q.a10$=new A.aez(A.b5(t.Gf))
-p.u7$="https://sr-wave-api.shiprocket.in"
+p.u7$="https://sr-wave-qa-1.kartrocket.com"
 p.d=p.ot$=3e7
 p.f=B.fY
 r.D(r,new A.HW(a,new A.zM()))

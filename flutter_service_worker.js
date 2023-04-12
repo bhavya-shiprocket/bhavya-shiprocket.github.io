@@ -16,11 +16,10 @@ const RESOURCES = {
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
 "splash/style.css": "509604eb0860c105d7f27f340678eb12",
 "favicon.ico": "3fdc39af41c473506412dc87470fd400",
-"index.html": "b08d89ec7cee2d23a64f98b4d0aa7302",
-"/": "b08d89ec7cee2d23a64f98b4d0aa7302",
+"index.html": "07d86a4a0b18d3cb6926183d78e681a2",
+"/": "07d86a4a0b18d3cb6926183d78e681a2",
 "styles.css": "125803aa8dc6a5e073d2efbbb64e70ed",
-"main.dart.js": "0e899804b3c9b250f6ed95218da6cfad",
-"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
+"main.dart.js": "9e7a8418bcce446e51ff80b27eccbf90",
 "favicon.png": "eae20ce4ee65837e8a613b2246517803",
 "icons/Icon-192.png": "1d55986372bdec826d08c6309692b34d",
 "icons/Icon-512.png": "10a2875f7f2d8efc4e01cd7bc7d9571e",
@@ -206,11 +205,7 @@ const RESOURCES = {
 "assets/assets/fonts/Bennett-Bold.ttf": "954ad06f6af68e716efa5322712e0473",
 "assets/assets/fonts/poppins/poppins_semibold.ttf": "4cdacb8f89d588d69e8570edcbe49507",
 "assets/assets/fonts/poppins/poppins_regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-"assets/assets/fonts/Bennett-Black.ttf": "985030a8f318f63e4a8ee82da8396ace",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
+"assets/assets/fonts/Bennett-Black.ttf": "985030a8f318f63e4a8ee82da8396ace"
 };
 
 // The application shell files that are downloaded before a service worker can
