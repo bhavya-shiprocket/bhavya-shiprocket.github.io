@@ -1,4 +1,6 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html>
+<head>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -13,110 +15,24 @@
     the `--base-href` argument provided to `flutter build`.
   -->
   <base href="/">
-  <script type="module" src="firebase-config.js"></script>
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="myShiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.">
-  <meta name="theme-color" content="#121212">
+  <meta name="description" content="A new Flutter project.">
+
   <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="myShiprocket">
+  <meta name="apple-mobile-web-app-title" content="demo_flutter">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <!-- Style CSS -->
-<!--  <link rel="stylesheet" type="text/css" href="styles.css">-->
-
-  <title>myShiprocket</title>
+  <title>demo_flutter</title>
   <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2144445707";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer=""></script>
-<!--  <script src="clevertap.js" defer=""></script>-->
-  <link rel="stylesheet" type="text/css" href="splash/style.css">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <script src="dom_handler.js"></script>
-<!--  <script src="splash.js"></script>-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-  <script id="uc_shiprocket" src="https://sr-cdn.shiprocket.in/sr-promise/static/uc.js?channel_id=32"></script>
-  <!-- Hotjar Tracking Code for https://myshiprocket.kartrocket.com -->
-  <script>
-  var currURL = window.location.href;
-    (function(h,o,t,j,a,r){
-    console.log(currURL);
-    if (currURL = 'https://my.shiprocket.in/'){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3627438,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-     } else {
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3649036,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-     }
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 </head>
-
 <body>
-  
-  
-<div class="container">
-  <style>
-  #splashLoader {
-    height: 30px;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  </style>
-  <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">
-  <div id="splashLoader"></div>
-</div>
-
-<script>
-   var animation = bodymovin.loadAnimation({
-     container: document.getElementById('splashLoader'),
-     path: 'assets/assets/lottie/splash_loader.json'
-   });
-</script>
-
-<script>
-
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
-    });
-  </script>
-
-
-</body></html>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
