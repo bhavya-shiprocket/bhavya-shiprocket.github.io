@@ -13,7 +13,7 @@
     the `--base-href` argument provided to `flutter build`.
   -->
   <base href="/">
-
+  <script type="module" src="firebase-config.js"></script>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="myShiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.">
@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '140666875';
+    const serviceWorkerVersion = "1051658636";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -46,6 +46,29 @@
   <script src="dom_handler.js"></script>
 <!--  <script src="splash.js"></script>-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+  <script id="uc_shiprocket" src="https://sr-cdn.shiprocket.in/sr-promise/static/uc.js?channel_id=32"></script>
+  <!-- Hotjar Tracking Code for https://myshiprocket.kartrocket.com -->
+  <script>
+  var currURL = window.location.href;
+    (function(h,o,t,j,a,r){
+    console.log(currURL);
+    if (currURL = 'https://my.shiprocket.in/'){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3627438,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+     } else {
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3649036,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+     }
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 
 <body>
